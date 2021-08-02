@@ -7,4 +7,4 @@ userHeight = gets.chomp.to_i
 goodWeight = (userHeight - 100) * 1.15
 puts "good weight is: #{goodWeight}"
 
-puts "#{userName}, U weight is good" if goodWeight.to_i-100 < 0
+puts "#{userName}, U weight is good" if goodWeight - 100 < 0
